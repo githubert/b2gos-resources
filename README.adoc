@@ -1,3 +1,32 @@
 = B2G OS Resources
 githubert <ikseno@googlemail.com>
 :toc: left
+
+Firefox OS for phones is becoming the community project B2G OS. Because there
+are a lot of resources, I try to collect some interesting things here; this is
+also a place to dump some ideas for improving/creating interesting
+applications.
+
+IMPORTANT: This is just a place for my own research; but any remarks, additions,
+et cetera are welcome :-)
+
+== Overview
+
+https://developer.mozilla.org/en-US/docs/Mozilla/B2G_OS::
+  Most things can be reached from here.
+
+https://wiki.mozilla.org/B2G/Transition_Project::
+  Overview of the transition to B2G OS.
+
+https://wiki.mozilla.org/B2G::
+ Mozilla Wiki page with various information; might not be relevant anymore,
+ though.
+
+== Broken Stuff
+
+I learned that the non-standard APIs in Firefox OS are going to be removed from
+B2G OS, breaking a lot of applications (presumably because important things
+like `mozTCPSocket` are gone).
+
+http://benfrancis.github.io/gaia/::
+  Overview of apps that are not available at the moment.
